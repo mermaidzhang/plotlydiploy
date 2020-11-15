@@ -119,7 +119,7 @@ function buildCharts(sample) {
         //type: "indicator",
         //mode: "gauge+"
         x:otu_ids,
-        y:yticks,
+        y:sample_values ,
         text: otu_labels,
         //hovertemplate: '<i>Sample Value</i>: 'Sample Value'%{y:.2f}' + '<br><b>X</b>: %{x}<br>' + '<b>%{text}</b>',
         marker:{
